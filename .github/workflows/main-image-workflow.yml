@@ -5,6 +5,7 @@ on:
 
 jobs:
   build:
+    if: github.repository_owner == 'danny-avila'
     runs-on: ubuntu-latest
     strategy:
       matrix:

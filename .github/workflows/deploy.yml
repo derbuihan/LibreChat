@@ -13,6 +13,7 @@ env:
 
 jobs:
   deploy-gh-runner-aci:
+    if: github.repository_owner == 'danny-avila'
     runs-on: ubuntu-latest
     steps:
       # checkout the repo
